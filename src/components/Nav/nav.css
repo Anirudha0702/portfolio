@@ -1,0 +1,121 @@
+.nav-wrapper{
+    position: fixed;
+    width:100svw;
+    background-color: rgb(49, 60, 83);
+    z-index: 999;
+}
+
+.logo-wrapper{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.logo{
+    width:5rem;
+    height: 5rem;
+}
+.logo-text{
+    font-size:1.2rem;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.navbar{
+    position: absolute;
+    top:100%;
+    left:0;
+    width:100svw;
+    background-color: rgba(49, 60, 83, 0.616);
+    padding-left: 0.5rem;
+    display: none;
+}
+.visiblity{
+    display: block;
+}
+.navbar ul li{
+    margin-block: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+.navbar ul li:hover{
+    color:yellow;
+}
+.navbar ul li:nth-child(5){
+    width:80%;
+}
+.navbar ul li:nth-child(5),.btn{
+    height: 3rem;
+    margin: 0.5rem auto;
+    border: none;
+    background-image: linear-gradient(to right, #5C258D 0%, #4389A2  51%, #5C258D  100%);
+    margin: 1rem auto;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+}
+     
+
+.navbar ul li:nth-child(5):hover,.btn:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+.hamburger{
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    right: 1rem;
+    top: 1.5rem;
+}
+.btn{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .visiblity{
+        display: flex;
+    }
+    .nav-wrapper{
+        padding-inline: 0.5rem;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    .navbar{
+        position: relative;
+        width: fit-content;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar ul {
+        font-size: 1.2rem;
+        padding-top: 0.3rem;
+       height: 3rem;
+    }
+    .navbar ul li{
+        display: inline-block;
+        margin:0.5rem;
+        margin-inline: 1rem;
+        cursor: pointer;
+        font-weight: 700;
+    }
+    .navbar ul li:nth-child(5){
+        display: none;
+    }
+    .btn{
+        display: block;
+        color:#fff;
+        font-weight: 700;
+        padding: 0.5rem ;
+        margin-right: 1.5rem;
+    }
+    .hamburger{
+        display: none;
+    }
+}
