@@ -1,0 +1,9 @@
+.title{
+  margin-bottom: 2rem;
+  margin-inline: auto;
+  background-color: rgb(30, 30, 41);;
+  position: relative;
+  top:-1rem;
+  width: fit-content;
+  padding-inline: 1rem;
+}

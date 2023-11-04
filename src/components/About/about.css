@@ -1,10 +1,9 @@
 .about{
     position: relative;
-    width: 100svw;
-    height: fit-content;
-    padding-top: 7rem;
-    background-image: url("../../assets/bg.svg");
-    background-repeat: no-repeat;
+    border-bottom: 1px solid #5a5757;
+    width: 90svw;
+    margin: auto;
+    padding-block: 7rem;
     gap: 3rem;
     display: flex;
     flex-wrap: wrap;
@@ -12,6 +11,7 @@
     align-items: center;
     text-align: center;
     padding-inline: 1rem;
+    white-space: wrap;
 }
 .info{
     display: flex;
@@ -33,8 +33,8 @@
     margin: auto;
     font-size: 1rem;
     line-height: 1.3rem;
-    font-weight: normal;
-    color:#b8aeae;
+    font-weight: 100;
+    color:#ffffff;
 }
 
          
@@ -65,8 +65,9 @@
     aspect-ratio: 1;
     border:2px solid #ebca0f;
     border-radius: 50%;
-    isolation: isolate;
+
 }
+
 .image-wrapper img{
     position: absolute;
     width: 100%;
@@ -87,7 +88,6 @@
         font-size: 1.3rem;
         line-height: 1.5rem;
         font-weight: 100;
-        width: full;
     }
     .info h1{
         font-size: 2.5rem;

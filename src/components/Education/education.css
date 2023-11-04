@@ -1,0 +1,28 @@
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 2.5rem 0;
+    ;
+}
+
+.timeline-container::after {
+    background-color: #fa1789;
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 100%;
+}
+.edu{
+  margin-inline: auto;
+  background-color: rgb(30, 30, 41);;
+  position: relative;
+  width: fit-content;
+  padding-inline: 1rem;
+  top: 1.5rem;
+}
+.line{
+    width:90svw;
+   border-color: #5a5757;
+}

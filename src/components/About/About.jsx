@@ -1,9 +1,16 @@
 import "./about.css"
 import Typewriter from "typewriter-effect";
 import Me from "../../assets/me.jpeg"
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 const About = () => {
+//   useEffect(() => {
+//     Aos.init({ duration: 1000 })
+
+// }, []);
   return (
-    <div className="about">
+    <div className="about" data-aos="fade-up">
         <div className="image-wrapper">
             <img src={Me} alt="" />
         </div>

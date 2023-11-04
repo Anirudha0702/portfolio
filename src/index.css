@@ -67,7 +67,11 @@ img {
 /* Set a default background color and font-family for the entire page */
 html,
 body {
-  background-color:rgba(50,50,62,1);
+  max-width: 100svw;
+  scroll-behavior: smooth;
+  background-color:rgb(30, 30, 41);
   color:#fff;
   font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  white-space: nowrap;
 }
