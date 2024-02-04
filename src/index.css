@@ -69,9 +69,16 @@ html,
 body {
   max-width: 100svw;
   scroll-behavior: smooth;
-  background-color:rgb(30, 30, 41);
+  background-color: #03132c;
+  background-attachment: fixed;
+  background-image: linear-gradient(to top,  #03132c 0%,#12100e 90%);
   color:#fff;
   font-family: Arial, sans-serif;
   overflow-x: hidden;
-  white-space: nowrap;
+  white-space: pre;
+}
+p{
+  white-space: pre;
+  word-wrap: break-word;
+  text-wrap: wrap;
 }

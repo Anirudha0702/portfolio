@@ -1,8 +1,7 @@
-import About from './components/About/About'
 import Nav from './components/Nav/Nav'
-import Skills from './components/Skills/Skills'
 import "./App.css"
-import Education from './components/Education/Education'
+import Profile from './components/Profile/Profile'
+import CurrentTab from './components/CurrentTab/CurrentTab'
 function App() {
 
 
@@ -10,9 +9,8 @@ function App() {
     <>
       <div className='app'>
         <Nav/>
-        <About/>
-        <Skills/>
-        <Education/>
+        <Profile/>
+        <CurrentTab/>
       </div>
     </>
   )

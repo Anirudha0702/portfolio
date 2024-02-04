@@ -1,5 +1,7 @@
 .app{
- overflow: hidden;   
+ min-height: 100svh;  
+ 
+
 }
 
 
