@@ -14,7 +14,7 @@ const Profile = () => {
         <div className="profile-image-wrapper">
           <img src={Me} alt="" className="profile-image" />
         </div>
-        <button className="follow X"><p>Follow on </p><RiTwitterXFill /></button>
+        <a href="https://twitter.com/Anirudh68131423"><button className="follow X"><p>Follow on </p><RiTwitterXFill /></button></a>
       </div>
       <div className="info-wrapper">
         <h1>Anirudha Pradhan <MdVerified style={{color:"#5eff00"}}/></h1>

@@ -1,37 +1,18 @@
-import "./about.css"
-import Typewriter from "typewriter-effect";
-import Me from "../../assets/me.jpeg"
-import Aos from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from "react";
+import "./about.css";
+import { FaCloudDownloadAlt } from "react-icons/fa";
+import { about } from "../../utils/data";
 const About = () => {
-//   useEffect(() => {
-//     Aos.init({ duration: 1000 })
-
-// }, []);
   return (
-    <div className="about" data-aos="fade-up">
-        <div className="image-wrapper">
-            <img src={Me} alt="" />
-        </div>
-        <div className="info">
-            <h1>Hi,I am </h1><h1>Anirudha Pradhan</h1>
-            <span className="typewriter">
-              <Typewriter title={"Typewriter"} data-testid="typewriter-element" 
-              options={{
-                strings: [' Full Stack Developer.', '  Programmer.'],
-                autoStart: true,
-                loop: true,
-              }}/>
-            </span>
-            <p className="bio">
-              I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.
-            </p>
-            <button className="resume">RESUME</button>
-        </div>
-        
+    <div className="tab-content">
+      <div className="">
+      <h1>{about.greet}</h1>
+      <p>{about.content}</p>
+      </div>
+      <a href="https://firebasestorage.googleapis.com/v0/b/unityhat-613fe.appspot.com/o/project_images%2Fmyresume.pdf?alt=media&token=123cb197-9337-4521-9494-3c219c99a1b4" className="resume" download={true}>
+       <FaCloudDownloadAlt/> Resume 
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
