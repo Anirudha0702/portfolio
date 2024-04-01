@@ -8,6 +8,9 @@ const Nav = () => {
         <img src={Logo} alt="Portfolio" className="logo" />
         <span className="logo-text">Portfolio</span>
       </div>
+      <ul>
+        <li83></li83>
+      </ul>
     </header>
   );
 };
