@@ -87,7 +87,7 @@ export const skills = [
     },
     {
       title:'Portfolio',
-      description:'My Portfolio Website',
+      description:"My Personal Portfolio contains my latest projects and creative endeavors. It showcases my skills and expertise.",
       techStack:['React','css'],
       github:'',
       live:'',
