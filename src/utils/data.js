@@ -89,8 +89,8 @@ export const skills = [
       title:'Portfolio',
       description:"My Personal Portfolio contains my latest projects and creative endeavors. It showcases my skills and expertise.",
       techStack:['React','css'],
-      github:'',
-      live:'',
+      github:'https://github.com/Anirudha0702/portfolio/tree/social-media-UI',
+      live:'https://anirudha0702.netlify.app/',
       image:'https://firebasestorage.googleapis.com/v0/b/unityhat-613fe.appspot.com/o/project_images%2Fportfolio.png?alt=media&token=d021e8dd-c555-44ae-8242-ca1693322abe'
     },
     
