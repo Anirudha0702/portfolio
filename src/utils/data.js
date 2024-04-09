@@ -52,7 +52,7 @@ export const skills = [
     {
       emoji:'🎓',
       title:"Studying B.Sc in CS",
-      date:"2021-2024",
+      date:"2021-Present",
       content:"Currently pursuing B.Sc in Computer Science from New Alipore College, University Of Calcutta."
     },
     {
@@ -75,7 +75,7 @@ export const skills = [
       techStack:['React','Tailwind CSS','TypeScript'],
       github:'https://github.com/Anirudha0702/weather-app',
       live:'https://weatheria130.netlify.app/',
-      image:'https://firebasestorage.googleapis.com/v0/b/unityhat-613fe.appspot.com/o/project_images%2Fweatherapp.png?alt=media&token=941b909f-7268-423c-8296-446185cb1536'
+      image:'https://firebasestorage.googleapis.com/v0/b/portfolio-cb13b.appspot.com/o/project_view%2FScreenshot%202024-04-02%20020009.png?alt=media&token=0fa9c4d1-e163-44ac-9931-fe0852fa9b19'
     },
     {
       title:'UnityChat',
@@ -83,7 +83,7 @@ export const skills = [
       techStack:['React','Firebase','Tailwind','MongoDB'],
       github:'https://github.com/Anirudha0702/UnityChat/tree/update-feature',
       live:'https://unitychat.netlify.app/',
-      image:'https://firebasestorage.googleapis.com/v0/b/unityhat-613fe.appspot.com/o/project_images%2FunityChat.png?alt=media&token=53bf66e1-2fa3-4df1-9be6-5beea3d9b38e'
+      image:'https://firebasestorage.googleapis.com/v0/b/portfolio-cb13b.appspot.com/o/project_view%2FScreenshot%202024-04-02%20015918.png?alt=media&token=d5126fe7-591a-4d4e-a35a-49b515c6d1ff'
     },
     {
       title:'Portfolio',
@@ -91,8 +91,16 @@ export const skills = [
       techStack:['React','css'],
       github:'https://github.com/Anirudha0702/portfolio/tree/social-media-UI',
       live:'https://anirudha0702.netlify.app/',
-      image:'https://firebasestorage.googleapis.com/v0/b/unityhat-613fe.appspot.com/o/project_images%2Fportfolio.png?alt=media&token=d021e8dd-c555-44ae-8242-ca1693322abe'
+      image:'https://firebasestorage.googleapis.com/v0/b/portfolio-cb13b.appspot.com/o/project_view%2FScreenshot%202024-04-02%20015949.png?alt=media&token=d1a5d6ce-4e3c-44a4-ad3d-70ce05fdf5ba'
     },
-    
+    {
+      title:'Scrap Go-Go',
+      description:"This project is a web scraper tool build with express Js and typescript. It scraps gogoAnime website.This tool includes 3 features Search Anime by Keyword, Get Anime Information, Get Streaming links of Episodes",
+      techStack:['Express JS','TypeScript','HTML','CSS'],
+      github:'https://github.com/Anirudha0702/Scrap-GoGo',
+      live:'https://scrap-go-go.vercel.app/',
+      image:'https://firebasestorage.googleapis.com/v0/b/portfolio-cb13b.appspot.com/o/project_view%2Fscrap-gogo.png?alt=media&token=ed0e306a-7312-4477-86c5-67e6df8b8c40'
+    },
 
   ]
+  export const Resume='https://firebasestorage.googleapis.com/v0/b/portfolio-cb13b.appspot.com/o/myResune.pdf?alt=media&token=2e370585-e124-4349-9118-491b7f3de7f7'

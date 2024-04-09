@@ -1,101 +1,31 @@
-.about{
-    position: relative;
-    border-bottom: 1px solid #5a5757;
-    width: 90svw;
-    margin: auto;
-    padding-block: 7rem;
-    gap: 3rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-inline: 1rem;
-    white-space: wrap;
+button:hover,
+a:hover {
+    cursor: pointer;
 }
-.info{
-    display: flex;
-    flex-direction: column;
-    max-width: 30rem;
-    min-width: 25rem;
-    gap: 1rem;
-}
-.info h1{
-    font-size: 2rem;
-}
-.typewriter{
-    color:#ebca0f; 
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-.info .bio{
-    width: 90%;
-    margin: auto;
-    font-size: 1rem;
-    line-height: 1.3rem;
-    font-weight: 100;
-    color:#ffffff;
-}
-
-         
 .resume {
-    border: none;
-    background-image: linear-gradient(to right, #3A1C71 0%, #D76D77  51%, #3A1C71  100%);
-    margin: 10px;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;            
-    border-radius: 10px;
-    display: block;
-  }
-  .resume:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-  }
- 
-
-.image-wrapper{
-    position: relative;
-    width:100svw;
-    max-width: 20rem;
-    aspect-ratio: 1;
-    border:2px solid #ebca0f;
-    border-radius: 50%;
-
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    #3a1c71 0%,
+    #d76d77 51%,
+    #3a1c71 100%
+  );
+  margin: 10px;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 10rem;
 }
-
-.image-wrapper img{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: inherit;
-} 
-@media screen and (min-width: 880px){
-    .about{
-        justify-content: space-around;
-        padding-inline: 3rem;
-        text-align: left;
-        flex-wrap: nowrap;
-    }
-    .image-wrapper{
-        order:2;
-    }
-    .info .bio{
-        font-size: 1.3rem;
-        line-height: 1.5rem;
-        font-weight: 100;
-    }
-    .info h1{
-        font-size: 2.5rem;
-    }
-    .resume{
-        width: 10rem;
-    }
-    .image-wrapper{
-        max-width: 25rem;
-    }
+.resume:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
