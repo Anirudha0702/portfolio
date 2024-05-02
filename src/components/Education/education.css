@@ -6,7 +6,8 @@
     width: 100%;
     max-width: 30rem;
     padding: 0.6rem;
-    background-color: rgba(78, 76, 76, 0.041);
+    /* background-color: rgba(78, 76, 76, 0.041); */
+    background-color: #1e293b;
     box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.1) ;
 }
 .post-header{

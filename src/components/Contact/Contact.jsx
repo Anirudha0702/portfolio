@@ -14,7 +14,7 @@ const Contact = () => {
             <input type="tel" name="Phone No" id="" placeholder='Enter Phone No' pattern='[0-9]{10}'/>
             <textarea id="message" name="message" placeholder="Write something.." required rows={20} cols={30}></textarea>
             {
-                formData && <p className='error'>Function is turned off intentionaly</p>
+                formData && <p className='error'>Service unavailable</p>
             }
             <input type="submit" value="Submit"/>
         </form>

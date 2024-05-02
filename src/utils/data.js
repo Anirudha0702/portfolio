@@ -46,7 +46,8 @@ export const skills = [
   export const about={
     title:"About",
     greet:"Hello 👋",
-    content:"Myself Anirudha Pradhan. I'm a MERN Stack Developer,currently pursuing B.Sc degree in Computer Science at New Alipore College, University Of Calcutta. I love to learn and work with new techs. Im currently a fresher with good programming Fundamentals."
+    content:"Myself Anirudha Pradhan. I'm a MERN Stack Developer,currently pursuing B.Sc degree in Computer Science at New Alipore College, University Of Calcutta. I love to learn and work with new techs. Im currently a fresher with good programming Fundamentals.",
+    heroImage:'https://firebasestorage.googleapis.com/v0/b/portfolio-cb13b.appspot.com/o/project_view%2FheroImage.jpg?alt=media&token=f0bec2dc-f90a-48e6-9ccf-aac316bc9ba0'
   }
   export const education=[
     {
@@ -96,11 +97,19 @@ export const skills = [
     {
       title:'Scrap Go-Go',
       description:"This project is a web scraper tool build with express Js and typescript. It scraps gogoAnime website.This tool includes 3 features Search Anime by Keyword, Get Anime Information, Get Streaming links of Episodes",
-      techStack:['Express JS','TypeScript','HTML','CSS'],
+      techStack:['Express Js','TypeScript','HTML','CSS'],
       github:'https://github.com/Anirudha0702/Scrap-GoGo',
       live:'https://scrap-go-go.vercel.app/',
       image:'https://firebasestorage.googleapis.com/v0/b/portfolio-cb13b.appspot.com/o/project_view%2Fscrap-gogo.png?alt=media&token=ed0e306a-7312-4477-86c5-67e6df8b8c40'
     },
-
+    {
+      title:'Weeb-e-fied',
+      description:"A full stack web application where user can search for anime , get details of anime, watch animes, and save them to their watchlist,and write blogs in community. It uses Jikan API,Kitsu API,Scrap gogo API for fetching data. It uses firebase for authentication and mongoDB for storing user data.",
+      techStack:['React','Tailwind CSS','Express Js','Mongo DB','Firebase'],
+      github:'https://github.com/Anirudha0702/weeb-e-fied',
+      live:'https://weeb-e-fied.netlify.app/',
+      image:'https://firebasestorage.googleapis.com/v0/b/portfolio-cb13b.appspot.com/o/project_view%2Fweeb-e-fied.png?alt=media&token=9796e403-7535-4aa2-8265-bd20e8f16c5c'
+    }
+    // https://firebasestorage.googleapis.com/v0/b/portfolio-cb13b.appspot.com/o/project_view%2Fweeb-e-fied.png?alt=media&token=9796e403-7535-4aa2-8265-bd20e8f16c5c
   ]
   export const Resume='https://firebasestorage.googleapis.com/v0/b/portfolio-cb13b.appspot.com/o/myResune.pdf?alt=media&token=2e370585-e124-4349-9118-491b7f3de7f7'
