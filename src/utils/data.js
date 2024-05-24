@@ -113,4 +113,4 @@ export const skills = [
     
     // https://firebasestorage.googleapis.com/v0/b/portfolio-cb13b.appspot.com/o/project_view%2Fweeb-e-fied.png?alt=media&token=9796e403-7535-4aa2-8265-bd20e8f16c5c
   ]
-  export const Resume='https://firebasestorage.googleapis.com/v0/b/portfolio-cb13b.appspot.com/o/myResune.pdf?alt=media&token=53171cad-be1f-4511-ad11-24b3099d44cf'
+  export const Resume='https://firebasestorage.googleapis.com/v0/b/portfolio-cb13b.appspot.com/o/Anirudha%20--cv.pdf?alt=media&token=784cb437-64a2-41ee-9397-3f6e8f3aca23'
