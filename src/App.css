@@ -1,5 +1,6 @@
-.app{
- min-height: 100vh;
+.app {
+  min-height: 100svh;
+  position: relative;
+  background-color: rgba(0,0,0,0.7);
 }
-
 
