@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 .env
-src/utils/firebase.js
+
 
 
 .vscode/*
