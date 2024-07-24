@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     fontFamily:{
-      'name':["Ubuntu", "sans-serif"]
+      'name':["Ubuntu", "sans-serif"],
+      'serif':["ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"],
     },
     extend: {},
   },

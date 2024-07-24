@@ -3,6 +3,7 @@ import Contacts from "./Contacts";
 import { useEffect } from "react";
 import getAbout from "../utils/getAbout";
 import { useState } from "react";
+import ProfileLoader from "./Loaders/ProfileLoader";
 const Profile = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -20,7 +21,7 @@ const Profile = () => {
       });
   }, []);
   if (loading) {
-    return <div className="p-5 text-center">Loading...</div>;
+    return <ProfileLoader/>;
   }
   if (error) {
     return <div className="p-5 text-center text-red-500">{error}</div>;

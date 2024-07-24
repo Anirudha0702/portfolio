@@ -78,3 +78,18 @@ p{
   word-wrap: break-word;
   text-wrap: wrap;
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111827; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bef264; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bef264; 
+}
