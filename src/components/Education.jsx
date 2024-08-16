@@ -1,6 +1,7 @@
 import { useEffect ,useState} from "react";
 import getEducations from "../utils/getEducations";
 import {FaUserGraduate} from "react-icons/fa";
+import EducationLoader from "./Loaders/EducationLoader";
 const Education = () => {
     const [educations, setEducations] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -12,6 +13,9 @@ const Education = () => {
           setLoading(false);
         });
       }, []);
+      if (loading) {
+        return <EducationLoader/>
+      }
   return (
     <div className=" m-2 p-4">
         <div className="mb-2 flex justify-between px-2 items-center">
@@ -23,7 +27,7 @@ const Education = () => {
               return (
                 <div
                   key={index}
-                  className="border border-gray-500 mb-2 shadow-lg rounded-lg flex  h-40 items-start gap-2 p-2 bg-gray-500 bg-opacity-20"
+                  className="border border-gray-500 mb-2 shadow-lg rounded-lg flex  h-fit items-start gap-2 p-2 bg-gray-500 bg-opacity-20"
                 >
                  <div className="h-40 w-36  flex items-start justify-center p-2 pt-4">
                  <FaUserGraduate   size={60}/>

@@ -52,7 +52,7 @@ const Profile = () => {
         <Contacts />
 
         <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center grow sm:grow-0 justify-center">
-          <a href={user?.portfolio} className="flex items-center">
+          <a href={user?.cv} className="flex items-center">
             <svg
               className="fill-current w-4 h-4 mr-2"
               xmlns="http://www.w3.org/2000/svg"

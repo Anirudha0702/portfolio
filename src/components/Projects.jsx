@@ -4,6 +4,7 @@ import { GoLink } from "react-icons/go";
 import getProjects from "../utils/getProjects";
 import { FaGithub } from "react-icons/fa";
 import { ImCancelCircle } from "react-icons/im";
+import ProjectLoader from "./Loaders/ProjectLoader";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -23,9 +24,10 @@ const Projects = () => {
   }, []);
   if (loading) {
     return (
-      <div className="flex justify-center items-center h-screen">
-        <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-gray-900">Loading</div>
-      </div>
+      // <div className="flex justify-center items-center h-screen">
+        
+      // </div>
+      <ProjectLoader/>
     );
   }
   return (
