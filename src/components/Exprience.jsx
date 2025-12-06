@@ -22,7 +22,7 @@ const Exprience = () => {
         <h2 className="text-3xl font-name text-gray-400">Exprience</h2>
       </div>
       <div className="bg-transparent">
-        {educations.map((education, index) => {
+        {educations.map((exprience, index) => {
           return (
             <div
               key={index}
@@ -33,12 +33,21 @@ const Exprience = () => {
               </div>
               <div className="flex flex-col gap-3">
                 <h3 className="text-2xl font-serif font-semibold">
-                  {education?.title}
+                  {exprience?.title}
                 </h3>
                 <span className="border border-gray-700 w-fit p-1 rounded-2xl px-2">
-                  {education?.date}
+                  {exprience?.date}
                 </span>
-                <p>{education?.content}</p>
+                <p>{exprience?.content}</p>
+
+                <ul className="list-disc list-inside mt-1 space-y-1 max-h-32 overflow-y-auto pr-2">
+                  {exprience?.points?.map((point, i) => (
+                    <li key={i}>
+                      <span className="font-semibold">{point.title}: </span>
+                      <span>{point.info}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           );
